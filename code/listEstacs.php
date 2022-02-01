@@ -58,7 +58,7 @@ include_once 'includes/headerLog.php';
                                                     <!--<div class="col s6 m6">
                                                         <div class="right-align">
                                                             <form action="php_actions/selectEstac.php" method="POST">
-                                                                <input type="hidden" name="idEstac" value="--><?php // echo $idEstac ?>">
+                                                                <input type="hidden" name="idEstac" value="--><?php // echo $idEstac ?>
                                                                 <!--<button type="submit" name="btnEntrarEstac" class="btn-floating green"><i class="material-icons">chevron_right</i></button>
                                                             </form>
                                                         </div>
