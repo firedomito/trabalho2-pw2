@@ -47,6 +47,7 @@ include_once 'includes/headerLog.php';
                                                 
                                                     <div class="col s6 m6 left-align">
                                                         <b><?php echo $dado['nomEstac']?></b>
+                                                        <div class="divider"></div>
                                                     </div>
                                                     <div class="col s6 m6">
                                                         <div class="right-align">
