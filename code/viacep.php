@@ -1,6 +1,5 @@
 <?php
 
-
 function getAddress()
 {
     if (isset($_POST['cep'])) {
@@ -19,7 +18,6 @@ function getAddress()
     } else {
         $endereco = addressEmpty();
     }
-
     return $endereco;
 }
 

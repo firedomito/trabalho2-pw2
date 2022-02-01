@@ -7,7 +7,6 @@ if($pageName == $listEstac){
     $pagina = $pageName;
 } else{
     $pagina = "home.php";
-
 }
 ?>
 <div class="navbar">
@@ -23,6 +22,7 @@ if($pageName == $listEstac){
                 <li><a href="home.php">Home</a></li>
                 <li><a href="historico.php">Histórico</a></li>
                 <li><a href="estacionamento.php">Estacionamento</a></li>
+                <li><a href="listEstacs.php">Lista de Estacionamentos</a></li>
                 <li><b><a href="empresa.php"><?php echo $dados['nomEmpresa'] ?></a></b></li>
                 <li><a href="php_actions/deslogar.php"><i class="material-icons right">exit_to_app</i></a></li>
             </ul>
