@@ -44,26 +44,18 @@ include_once 'includes/headerLog.php';
                                         $end = mysqli_fetch_assoc($query);
 
                                             ?>
-                                                
                                                     <div class="col s6 m6 left-align">
                                                         <b><?php echo $dado['nomEstac']?></b>
-                                                        <div class="divider"></div>
+                                                    </div>
+                                                    <div class="col s6 m6">
                                                         <div class="right-align">
                                                             <form action="php_actions/selectEstac.php" method="POST">
                                                                 <input type="hidden" name="idEstac" value="<?php echo $idEstac ?>">
                                                                 <button type="submit" name="btnEntrarEstac" class="btn-floating green"><i class="material-icons">chevron_right</i></button>
                                                             </form>
                                                         </div>
-                                                    </div>
-                                                    <!--<div class="col s6 m6">
-                                                        <div class="right-align">
-                                                            <form action="php_actions/selectEstac.php" method="POST">
-                                                                <input type="hidden" name="idEstac" value="--><?php // echo $idEstac ?>
-                                                                <!--<button type="submit" name="btnEntrarEstac" class="btn-floating green"><i class="material-icons">chevron_right</i></button>
-                                                            </form>
-                                                        </div>
                                                         
-                                                    </div>  -->                      
+                                                    </div>                        
                                             <?php 
                                     endwhile;
                                     
@@ -78,5 +70,6 @@ include_once 'includes/headerLog.php';
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="main.js"></script>
+    <?php include_once 'includes/footer.php'; ?>
     </body>
   </html>
